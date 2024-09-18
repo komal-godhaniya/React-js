@@ -1,10 +1,10 @@
 import React from 'react'
-import FormPr from './Form/FormPr'
+import Form from './Form/Form'
 
 export default function App() {
   return (
-    <>
-      <FormPr/>
-    </>
+    <div>
+      <Form/>
+    </div>
   )
 }
