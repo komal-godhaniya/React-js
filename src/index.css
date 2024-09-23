@@ -1,197 +1,68 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-.head{
-  height: 80px;
-  border: 1px solid transparent;
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  position: fixed;
-  z-index: 10;
-  width: 100%;
-  background-color: white;
-}
-nav{
-  a{
-    margin-inline: 20px;
-    text-decoration: none;
-    color: rgb(96,98,96);
-    cursor: pointer;
-  }
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
-.head i{
-  margin-inline: 15px;
-  font-size: 18px;
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 
-.head img{
-  height: 60px;
-}
-.section-1{
-  height: 700px;
+button {
+  border-radius: 8px;
   border: 1px solid transparent;
-  background-image: url("http://templates.framework-y.com/gourmet/images/hd-11.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
 }
-#text{
-  height: auto;
-  width: 40%;
-  border: 1px solid transparent;
+button:hover {
+  border-color: #646cff;
 }
-#text {
-  
-  img{
-    height: 30px !important;
-    width: 20%;
-  }
-  h1{
-    font-size: 55px;
-    color: rgb(73,73,73);
-  } 
-  p{
-    font-size: 17px;
-    line-height: 1.5;
-    color: rgb(96,98,96);
-    margin-top: 20px;
-  }
-  button{
-    height: 40px;
-    width: 170px;
-    border: 1px solid rgb(73,73,73);
-    border-radius: 30px;
-    background: transparent;
-    color: rgb(73,73,73);
-    margin-top: 20px;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
-    cursor: pointer;
-  }
-  button:hover{
-    background-color: rgb(73,73,73);
-    color: white;
-  }
-
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
-.section-2{
-  height: 500px;
-  border: 1px solid transparent;
-  display: flex;
-  justify-content: center;
-}
-.section-2 #part-1{
-  height: 100%;
-  width: 50%;
-  border: 1px solid transparent;
-}
-#part-1 img{
-  height: 100%;
-  width: 100%;
-}
-
-#part-1 , #about{
-  h4{
-    color: rgb(96,98,96);
-    margin-top: 100px;
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
   }
-  h1{
-    color: rgb(61, 61, 61);
-    margin-top: 10px;
+  a:hover {
+    color: #747bff;
   }
-  p{
-    line-height: 1.7;
-    width: 80%;
-    margin-top: 20px;
-    color: rgb(96,98,96);
+  button {
+    background-color: #f9f9f9;
   }
-}
-.section-3{
-  height: 500px;
-  border: 1px solid transparent;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url('http://templates.framework-y.com/gourmet/images/bg-16.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  color: white;
-}
-.section-3{
-  h4{
-    margin-top: 70px;
-  }
-  h1{
-    margin-top: 20px;
-  }
-  p{
-    line-height: 2;
-    width: 80%;
-    margin-top: 25px;
-  }
-  img{
-    height: 90px;
-    border-radius: 50%;
-    margin-top: 15px;
-  }
-}
-
-
-.section-4{
-  height: 550px;
-  border: 1px solid transparent;
-}
-#images img{
-  height: 60px;
-  margin: 25px;
-  border-right: 1px solid rgb(96,98,96);
-  padding-right: 20px;
-}
-#images{
-  margin-top: 20px;
-}
-footer{
-  height: 310px;
-  border: 1px solid transparent;
-  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url('http://templates.framework-y.com/gourmet/images/bg-15.jpg');
-  background-attachment: fixed;
-}
-footer {
-  img{
-    height: 50px;
-    margin-top: 50px;
-    background-color: aliceblue;
-    padding: 5px;
-    border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-
-  }
-  p{
-    color: white;
-    line-height: 1.7;
-    width: 40%;
-    margin-top: 30px;
-  }
-  i{
-    font-size: 20px;
-    margin-inline: 20px;
-    color: white;
-    margin-top: 30px;
-  }
-  #foot-p{
-    width: 80%;
-    margin-top: 14px;
-  }
-  hr{
-    margin-top: 15px;
-  }
-}
-
+} */
