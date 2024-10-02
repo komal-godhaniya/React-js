@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 2;
+    word-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    height: auto;
+    border-collapse: collapse;
+}
+th{
+    padding: 10px;
+    padding-left: 30px;
+}
+td{
+    padding: 8px;
+}
+button{
+    height: 35px;
+    width: 100px;
+    border: 1px solid transparent;
+    color: azure;
+    cursor: pointer;
+    background-color: cadetblue;
+    margin: 5px;
+}
+input{
+    padding-left: 10px;
+    margin-left: 5px;
+}
