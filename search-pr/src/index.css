@@ -1,0 +1,154 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#main{
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  align-items: center;
+  margin: 15px;
+  flex-direction: column;
+}
+a{
+  color: brown;
+  text-decoration: none;
+}
+#header{
+  height: 100vh;
+  width: 25%;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  background-color: bisque;
+  /* overflow: scroll; */
+}
+#section{
+  height: 100vh;
+  width: 75%;
+  border: 1px solid transparent;
+  margin-left: 25%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://mb-demo1.myshopify.com/cdn/shop/files/marbo-fashion-slider-images-01.jpg?v=1695389331&width=1500");
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: slider 12s infinite linear;
+  background-size: 120% 100%;
+}
+@keyframes slider{
+  
+  25%{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://wpbingo-digic.myshopify.com/cdn/shop/files/slider8-1.jpg?v=1727062663");
+    background-size: 120% 100%;
+    background-position: center;
+  }
+  50%{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://wpbingo-funio.myshopify.com/cdn/shop/files/slider-4.webp?v=1726547742");
+    background-size: 120% 100%;
+    background-position: center;
+  }
+  75%{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/08/rev-1-img-1.png");
+  background-size: 120% 100%;
+  background-position: center;
+}
+100%{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://mb-demo1.myshopify.com/cdn/shop/files/marbo-fashion-slider-images-01.jpg?v=1695389331&width=1500");
+    background-size: 120% 100%;
+    background-position: center;
+  }
+}
+ h1{
+  margin: 35px;
+  margin-left: 60px;
+ }
+input{
+  height: 40px;
+  width: 300px;
+  display: block;
+  font-size: 18px;
+  padding: 7px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+.main{
+  height: auto;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid transparent;
+  margin-top: 20px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.item1{
+  width: 100%;
+  height: auto;
+  border: 2px dashed brown;
+  margin-top: 20px;
+}
+.main {
+  .cloth_img{
+    height: 200px;
+  }
+  .cloth_btn{
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: rgb(42, 87, 89);
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h3,h4{
+    margin-top: 7px;
+  }
+  h4{
+    color: red;
+  }
+}
+h5{
+  font-size: 30px;
+  color: rgb(94, 46, 12);
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+#section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#section{
+  marquee{
+    width: 70%;
+  }
+  h1{
+    font-size: 40px;
+    color: white;
+    padding: 8px;
+    word-spacing: 150px;
+  }
+}
+#back{
+  background-color: transparent;
+  border: none;
+  margin-left: 12px;
+  font-size: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bouncing-text {
+  display: inline-block;
+  animation: bounce 3s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(30px); } 
+}
