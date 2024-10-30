@@ -1,0 +1,67 @@
+
+@media(min-width:0px) and (max-width:576px) {
+    #sec-2{
+        height: auto;
+    }
+    #sec-2 h1{
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    #sec-2 form{
+        height: auto;
+        width:90%;
+        margin: 30px;
+        margin-left: 5%;
+        display: block;
+    }
+    .form-div{
+        /* background-color: aqua; */
+        display: block;
+        width: 80%;
+        height: auto;
+        margin-left: 10%;        
+        margin-top: 20px;
+    }
+    #sec-2 input{
+        width: 95%;
+    }
+    #sec-2 button{
+        margin-left: 25%;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    #sidebar{
+        display: block;
+    }
+    #head{
+        display: none;
+    }
+    #sec-3{
+        height: auto;
+    }
+    #welcome {
+       height: auto;
+       margin-top: 25px;
+       margin-bottom: 25px;
+    }
+    #sec-3 #part-2 img{
+        display: none;
+    }
+    #sec-3 #part-2{
+        display: none;
+    }
+    #sec-3 #welcome #part-1{
+        width: 100%;
+    }
+    #sec-5{
+        height: 450px;
+    }
+    #sec-4 p{
+        width: 90%;
+    }
+    #sec-5 #slider{
+        width: 90%;
+        margin-left: 5%;
+        height: 450px;
+    }
+}
